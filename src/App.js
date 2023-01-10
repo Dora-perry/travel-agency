@@ -14,10 +14,10 @@ function App() {
       {/* <ScrollToTop /> */}
       <Navbar />
        <Hero />
-      {/* <Services />
+       <Services />
       <Recommend />
       <Testimonial />
-      <Footer/> */}
+      <Footer/> 
     </>
   );
 }

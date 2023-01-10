@@ -45,7 +45,7 @@ const Hero = () => {
   );
 }
 
-const Section = styled.div`
+const Section = styled.section`
   position: relative;
   margin-top: 2rem;
   width: 100%;
@@ -134,7 +134,7 @@ const Section = styled.div`
 
         &:hover{
             background-color:#023e8a;
-            
+
         }
 
       }
