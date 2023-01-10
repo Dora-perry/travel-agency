@@ -11,13 +11,13 @@ import Testimonial from './Component/Testimonial';
 function App() {
   return (
     <>
-      {/* <ScrollToTop /> */}
+      <ScrollToTop /> 
       <Navbar />
-       <Hero />
-       <Services />
+      <Hero />
+      <Services />
       <Recommend />
       <Testimonial />
-      <Footer/> 
+      <Footer />
     </>
   );
 }

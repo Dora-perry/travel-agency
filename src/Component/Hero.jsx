@@ -21,17 +21,17 @@ const Hero = () => {
             </div>
                   <div className='search'>
                       <div className='container'>
-                          <label htmlFor=''> where you want to go</label>
+                          <label htmlFor=''> Where you want to go</label>
                           <input type="text" placeholder="Search your locaction"/>
                           
                       </div>
                       <div className='container'>
-                          <label htmlFor=''>check-in</label>
+                          <label htmlFor=''>Check-in</label>
                           <input type="date"/>
                           
                       </div>
                       <div className='container'>
-                          <label htmlFor=''> check-out</label>
+                          <label htmlFor=''> Check-out</label>
                           <input type="date"/>
                           
                       </div>

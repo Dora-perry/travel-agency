@@ -4,32 +4,32 @@ import logo from '../assets/logo.png';
 
 const Navbar = () => {
   return (
-      <>
-          <Nav>
-      <div className="brand">
-        <div className='container'>
-          <img src={logo} alt="logo" />
-          Travelo
+    <>
+      <Nav>
+        <div className="brand">
+          <div className="container">
+            <img src={logo} alt="logo" />
+            Travelo
+          </div>
+          <div className="toggle"></div>
         </div>
-        <div className="toggle"></div>
-      </div>
 
-      <ul>
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#recommend">Places</a>
-        </li>
-        <li>
-          <a href="#testimonial">Testimonial</a>
-        </li>
-          </ul>
-              <button>connect</button>
-              </Nav>
+        <ul>
+          <li>
+            <a href="#hero">Home</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#recommend">Places</a>
+          </li>
+          <li>
+            <a href="#testimonial">Testimonials</a>
+          </li>
+        </ul>
+        <button>connect</button>
+      </Nav>
     </>
   );
 };
@@ -93,6 +93,19 @@ const Nav = styled.nav`
     &:hover {
       background-color: #023e8a;
     }
+  }
+
+
+  @media screen and (min-width: 280px) and (max-width: 1080px){
+  .brand{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    .toggle{
+        display:block;
+    }
+  }
   }
 `;
 
